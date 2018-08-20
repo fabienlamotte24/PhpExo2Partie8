@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(to right, white, #0404B4);
+    
+}
+.link{
+    color: black;
+    background-image: linear-gradient(to right, #0404B4, white);
+    text-transform: uppercase;
+    box-shadow: 5px 5px 3px #08088A;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-top:300px;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top:300px;
+}
