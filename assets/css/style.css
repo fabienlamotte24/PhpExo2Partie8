@@ -1,19 +1,22 @@
 body{
-    background-image: linear-gradient(to right, white, #0404B4);
-    
+    background-image: linear-gradient(to right, black, #0404B4);
 }
 .link{
+    background-image: linear-gradient(to right, white, blue);
     color: black;
-    background-image: linear-gradient(to right, #0404B4, white);
-    text-transform: uppercase;
-    box-shadow: 5px 5px 3px #08088A;
-    border-radius: 50px;
-    padding: 5px;
-    text-align: center;
-    margin-top:300px;
+    padding:15px;
+    text-decoration:none;
 }
-p{
-    color: white;
-    text-align: center;
-    margin-top:300px;
+.link:hover{
+    color: red;
+    text-decoration:none;
+}
+.info{
+    text-align:center;
+    margin-top:20%;
+}
+.givenInfo{
+    text-align:center;
+    margin-top:20%;
+    color:white;
 }
