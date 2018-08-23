@@ -1,10 +1,17 @@
 body{
     background-image: linear-gradient(to right, black, #0404B4);
 }
-.link{
-    background-image: linear-gradient(to right, white, blue);
-    color: black;
-    padding:15px;
+.link1{
+    color: bleue;
+    margin:15px;
+    text-decoration:none;
+    background-image: linear-gradient (to right, grey, white);
+}
+link2{
+    background-image: grey;
+    color: blue;
+    margin:15px;
+    padding:5px;
     text-decoration:none;
 }
 .link:hover{
@@ -14,9 +21,15 @@ body{
 .info{
     text-align:center;
     margin-top:20%;
+    background-color: white;
+    padding-top:10px;
+    border-radius:15px;
 }
 .givenInfo{
     text-align:center;
     margin-top:20%;
-    color:white;
+    color:black;
+    background-color:white;
+    border-radius:15px;
+    padding-top:10px;
 }

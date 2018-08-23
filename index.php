@@ -1,9 +1,8 @@
 <?php
     session_start();//Démarrage de la session
-
-    $_SESSION['firstName'] = 'Fabien';//Déclaration session firstName avec valeur 'Fabien'
-    $_SESSION['lastName'] = 'Lamotte';//Déclaration session lastName avec valeur 'Lamotte'
-    $_SESSION['age'] = 32;//Déclaration session age avec valeur 32
+    $_SESSION['firstName'] = 'Fabien';//Déclaration session avec clé associative 'firstName' et valeur 'Fabien'
+    $_SESSION['lastName'] = 'Lamotte';//Déclaration session avec clé associative 'lastName' et valeur 'Lamotte'
+    $_SESSION['age'] = 26;//Déclaration session avec clé associative 'age' et valeur '26'
 ?>
 <!DOCTYPE html>
 <html lang="foreach" dir="ltr">
@@ -20,9 +19,8 @@
       <div class="container">
           <div class="row">
               <div class="offset-3 col-6 info">
-                <p>
-                    <a href="secondPage.php" class="link">Cliquer ici pour recevoir vos informations</a><!--Lien vers la seconde page où seront transmis les valeurs sessions-->
-                </p>
+                <!--Lien vers la seconde page où seront transmis les valeurs sessions-->
+                <p>Cliquez <a href="secondPage.php" class="link1">ici</a>pour lire le contenu des cookies.</p>
               </div>
           </div>
       </div>

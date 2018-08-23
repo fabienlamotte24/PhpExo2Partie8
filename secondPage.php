@@ -16,10 +16,13 @@ session_start();//Démarrage de la session
     <div class="container">
           <div class="row">
               <div class="offset-3 col-6 givenInfo">
-                <p><!--Affichage avec phrase concaténée comprenant les paramètres de la page index.php-->
-                  Je m'appelle <?php echo $_SESSION['firstName'] . ' ' . $_SESSION['lastName']; ?> et j'ai <?php echo $_SESSION['age']; ?> ans LOL !
-                  <a href="index.php" class="link">Retour</a>
-                </p>
+                <?php if(!empty($_SESSION['firstName'])){ ?>
+                  <p>Prénom : <?= $_SESSION['firstName'] ?></p> <?php } ?>
+                <?php if(!empty($_SESSION['lastName'])){ ?>
+                  <p>Nom de famille : <?= $_SESSION['lastName'] ?></p> <?php } ?>
+                <?php if(!empty($_SESSION['age'])){ ?>
+                  <p>Age : <?= $_SESSION['age'] ?></p> <?php } ?>
+                  
               </div>
           </div>
       </div>
